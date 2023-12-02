@@ -1,0 +1,14 @@
+.bold-text {
+    font-weight: bold;
+}
+
+.POSYANDU {
+    background-image: url('https://img.freepik.com/free-photo/arrangement-family-concept-with-copy-space_23-2148485793.jpg?w=1060&t=st=1697908967~exp=1697909567~hmac=d1389f8001bb4ba6947397be0568328a4550306784140a0563313478725a7952');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cream-background {
+background-color: #FFF4E6; /* Use the desired cream color code */
+}

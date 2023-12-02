@@ -1,0 +1,159 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+.bold-text {
+    font-weight: bold;
+}
+
+.POSYANDU {
+    background-image: url('https://img.freepik.com/free-photo/arrangement-family-concept-with-copy-space_23-2148485793.jpg?w=1060&t=st=1697908967~exp=1697909567~hmac=d1389f8001bb4ba6947397be0568328a4550306784140a0563313478725a7952');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cream-background {
+background-color: #FFF4E6; /* Use the desired cream color code */
+}
+.wrapper {
+  width: 370px;
+  background: #fff;
+  border-radius: 5px;
+  border: 1px solid lightgrey;
+  border-top: 0px;
+}
+.wrapper .title {
+  background: #2b7088;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 60px;
+  text-align: center;
+  border-bottom: 1px solid #2b7088;
+  border-radius: 5px 5px 0 0;
+}
+.wrapper .form {
+  padding: 20px 15px;
+  min-height: 400px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+.wrapper .form .inbox {
+  width: 100%;
+  display: flex;
+  align-items: baseline;
+}
+.wrapper .form .user-inbox {
+  justify-content: flex-end;
+  margin: 13px 0;
+}
+.wrapper .form .inbox .icon {
+  height: 40px;
+  width: 40px;
+  color: #333;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  font-size: 18px;
+  background: #82dc90;
+}
+.wrapper .form .inbox .msg-header {
+  max-width: 75%;
+  margin-left: 10px;
+}
+.form .inbox .msg-header p {
+  color: #333;
+  background: #82dc90;
+  border-radius: 10px;
+  padding: 8px 10px;
+  font-size: 14px;
+  word-break: break-all;
+}
+.form .user-inbox .msg-header p {
+  color: #333;
+  background: #efefef;
+}
+.wrapper .typing-field {
+  display: flex;
+  height: 60px;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  background: #efefef;
+  border-top: 1px solid #d9d9d9;
+  border-radius: 0 0 5px 5px;
+}
+.wrapper .typing-field .input-data {
+  height: 40px;
+  width: 335px;
+  position: relative;
+}
+.wrapper .typing-field .input-data input {
+  height: 100%;
+  width: 100%;
+  outline: none;
+  border: 1px solid transparent;
+  padding: 0 80px 0 15px;
+  border-radius: 3px;
+  font-size: 15px;
+  background: #fff;
+  transition: all 0.3s ease;
+}
+.typing-field .input-data input:focus {
+  border-color: rgba(0, 123, 255, 0.8);
+}
+.input-data input::placeholder {
+  color: #999999;
+  transition: all 0.3s ease;
+}
+.input-data input:focus::placeholder {
+  color: #bfbfbf;
+}
+.wrapper .typing-field .input-data button {
+  position: absolute;
+  right: 5px;
+  top: 50%;
+  height: 30px;
+  width: 65px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  outline: none;
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 3px;
+  background: #387c93;
+  border: 1px solid #387c93;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+}
+.wrapper .typing-field .input-data input:valid ~ button {
+  opacity: 1;
+  pointer-events: auto;
+}
+.typing-field .input-data button:hover {
+  background: #387c93;
+}
+.cream-background {
+    background-color: #FFF4E6;
+    }
+.poto-background {
+    background-image: url('https://img.freepik.com/free-photo/top-view-cute-family-concept-arrangement-with-copy-space_23-2148485831.jpg?size=626&ext=jpg&ga=GA1.1.386372595.1698019200&semt=ais');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    }
+/* In your CSS file or in your Blade file between <style> tags */
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th, td {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
